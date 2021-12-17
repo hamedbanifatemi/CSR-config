@@ -163,6 +163,7 @@ redundancy
 !
 !
 interface GigabitEthernet1
+ description connected to VMnet1
  ip dhcp client client-id ascii cisco-5000.0001.0000-Gi1
  ip address 172.17.99.99 255.255.0.0
  negotiation auto
